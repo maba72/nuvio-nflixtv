@@ -1,0 +1,24 @@
+{
+  "name": "Nflix",
+  "version": "0.1.0",
+  "description": "nflixtv.cc streams for Nuvio, resolved on-device from the site's public Stremio API. No server required.",
+  "author": "maba",
+  "scrapers": [
+    {
+      "id": "nflixtv",
+      "name": "Nflix",
+      "description": "Movies and series from nflixtv.cc as direct MP4/HLS streams, resolved on your device.",
+      "version": "0.1.0",
+      "author": "maba",
+      "supportedTypes": ["movie", "tv"],
+      "filename": "providers/nflixtv.js",
+      "enabled": true,
+      "hasSettings": true,
+      "formats": ["m3u8", "mp4"],
+      "logo": "https://nflixtv.cc/nflix-n.svg",
+      "contentLanguage": ["en"],
+      "supportsExternalPlayer": true,
+      "limited": false
+    }
+  ]
+}
