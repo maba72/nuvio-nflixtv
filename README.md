@@ -15,7 +15,7 @@ its stream objects into Nuvio's format.
 2. In Nuvio: **Settings → Content & Discovery → Plugins → Add Repository**.
 3. Paste the manifest URL:
    ```
-   https://raw.githubusercontent.com/<you>/nuvio-nflixtv/main/manifest.json
+   https://raw.githubusercontent.com/maba72/nuvio-nflixtv/master/manifest.json
    ```
 4. Refresh, then enable **Nflix**.
 5. Make sure a TMDB API key is set in Nuvio — meta ids and artwork come from
